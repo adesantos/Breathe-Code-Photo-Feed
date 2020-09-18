@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    background-color: #fff;
+}
+header > h1 {
+    text-align: center;
+}
+
+.container{
+    padding: 50px;
+    background-color: rgb(228, 228, 228);
+}
+
+.post{
+    margin-bottom: 50px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #b9b9b9;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.post-header{
+    padding: 0 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-title > h3{
+    font-weight: 600;
+}
+.post-date{
+    color: #a1a1a1;
+}
+
+.post-picture > img{
+    width: 500px;
+}
+
+.post-caption{
+    padding: 10px;
+}
+.post-caption > p{
+    margin: 0;
+}
